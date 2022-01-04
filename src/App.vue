@@ -2,11 +2,11 @@
   <div id="root" class="content">
     <header>
       <div class="flex justify-between">
-        <span class="logo">
-          <img src="./assets/logo-white.svg" alt="" />
+        <span class="slogan">
+          <img src="./assets/zuobian.svg" alt="" />
         </span>
         <span class="slogan">
-          <img src="./assets/slogan.svg" alt="" />
+          <img src="./assets/youbian.svg" alt="" />
         </span>
       </div>
     </header>

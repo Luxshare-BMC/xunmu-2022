@@ -12,7 +12,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     config: {
-      name: '一面数据年会',
+      name: '讯牧信息科技（上海）有限公司虎年大抽奖',
       number: 50,
       firstPrize: 1
     },
@@ -27,7 +27,7 @@ export default new Vuex.Store({
   mutations: {
     setClearConfig(state) {
       state.config = {
-        name: '年会抽奖',
+        name: '讯牧信息科技（上海）有限公司虎年大抽奖',
         number: 50,
         firstPrize: 1
       };
@@ -49,7 +49,7 @@ export default new Vuex.Store({
     },
     setClearStore(state) {
       state.config = {
-        name: '年会抽奖',
+        name: '讯牧信息科技（上海）有限公司虎年大抽奖',
         number: 50,
         firstPrize: 1
       };

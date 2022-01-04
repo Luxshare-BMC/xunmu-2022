@@ -2,14 +2,14 @@
   <div class="v-prize" v-hotkey="keymap">
     <el-card shadow="hover" :body-style="{}">
       <div class="flex flex-col gap-2 items-center">
-        <h3>幸运抽奖</h3>
+        <h3>立讯（虎年）大抽奖</h3>
         <span class="prize-image">
           <el-image
             v-if="currentPrize"
             :src="currentPrize"
             :preview-src-list="[currentPrize]"
           />
-          <img v-else class="prize-preview" src="@/assets/default.png" />
+          <img v-else class="prize-preview" src="@/assets/likeniu.png" />
         </span>
         <h5>奖品：{{ desc }}</h5>
         <div class="flex items-center prize-name">
